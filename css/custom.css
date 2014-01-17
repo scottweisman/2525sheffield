@@ -1,0 +1,19 @@
+*{padding:0; margin:0;}
+
+body{font:100%/1.618 'Open Sans', sans-serif; color:#444}
+
+#content{width:35%; min-width:200px; min-height:100%; margin:0 20px;padding:20px; background-color:rgba(255, 255, 255, 0.85);}
+
+h1{margin:10px 0; line-height:1.2em;}
+
+#unit{font-weight:300}
+
+h2{margin:10px 0 0;}
+
+p{font-weight:300; font-size:18px}
+
+a.left img{margin-right:20px;}
+
+.gallery img{border:2px solid #fff; margin-bottom:15px}
+
+.map iframe{border:2px solid #fff;}
