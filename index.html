@@ -45,5 +45,19 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
 
+	<script>
+		$.backstretch("./images/living_room_background.jpg");
+
+		$("#outside").click(function(e) {
+		  e.preventDefault();
+		  $.backstretch('http://dl.dropbox.com/u/515046/www/outside.jpg');
+		});
+
+		$("#cheers").click(function(e) {
+		  e.preventDefault();
+		  $.backstretch('http://dl.dropbox.com/u/515046/www/cheers.jpg');
+		});
+	</script>
+
 </body>
 </html>
